@@ -30,7 +30,7 @@ stages:
           - script: |
               source $(Build.SourcesDirectory)/.venv/bin/activate
               pip install .[test,build]
-            displayName: "Installing Ops tools"
+            displayName: "Installing Entsoe-py"
 
           - task: TwineAuthenticate@1
             inputs:
