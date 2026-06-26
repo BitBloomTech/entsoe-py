@@ -28,7 +28,7 @@ with open(path.join(here, 'entsoe', 'entsoe.py'), encoding='utf-8') as f:
             __version__ = l.split('"')[1] # take the part after the first "
 
 setup(
-    name='entsoe-py',
+    name='entsoe-py-bitbloom',
     version=__version__,
     description='A python API wrapper for ENTSO-E',
     long_description=long_description,
