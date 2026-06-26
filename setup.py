@@ -68,7 +68,7 @@ setup(
 
     # List run-time dependencies here.  These will be installed by pip when
     # your project is installed.
-    install_requires=['requests', 'pytz', 'beautifulsoup4>=4.11.1', 'pandas>=2.2.0'],
+    install_requires=['requests', 'pytz', 'beautifulsoup4>=4.11.1', 'pandas==1.5.3'],
 
     include_package_data=True,
     package_data={"entsoe": ["py.typed"]}
